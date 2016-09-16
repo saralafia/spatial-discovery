@@ -1,0 +1,2437 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="pisco_smr_synthesis.1.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd">
+  <dataset scope="document">
+    <title>PISCO: Science of Marine Reserves: Meta-analysis: Global synthesis</title>
+    <creator scope="document">
+      <organizationName>Partnership for Interdisciplinary Studies of Coastal Oceans</organizationName>
+      <onlineUrl>http://www.piscoweb.org</onlineUrl>
+    </creator>
+    <creator id="sarah.lester" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Sarah</givenName>
+        <surName>Lester</surName>
+      </individualName>
+      <organizationName>PISCO</organizationName>
+      <positionName>Project Scientist</positionName>
+      <address scope="document">
+        <deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+      </address>
+      <electronicMailAddress>lester@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="ben.halpern" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Benjamin</givenName>
+        <surName>Halpern</surName>
+      </individualName>
+      <organizationName>NCEAS</organizationName>
+      <positionName>Project Coordinator</positionName>
+      <address scope="document">
+        <deliveryPoint>National Center for Ecological Analysis and Synthesis</deliveryPoint>
+        <deliveryPoint>735 State Street</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93101</postalCode>
+      </address>
+      <electronicMailAddress>halpern@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="kirsten.grorud-colvert" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Kirsten</givenName>
+        <surName>Grorud-Colvert</surName>
+      </individualName>
+      <organizationName>PISCO</organizationName>
+      <positionName>Marine Reserve Science Coordinator</positionName>
+      <address scope="document">
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>3029 Cordley Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <electronicMailAddress>grorudck@science.oregonstate.edu</electronicMailAddress>
+    </creator>
+    <associatedParty id="jane.jubchenco" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Jane</givenName>
+        <surName>Lubchenco</surName>
+      </individualName>
+      <organizationName>PISCO</organizationName>
+      <address scope="document">
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>Cordley Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <electronicMailAddress>lubchenco@oregonstate.edu</electronicMailAddress>
+      <role>Co-Author</role>
+    </associatedParty>
+    <associatedParty id="ben.ruttenberg" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Ben</givenName>
+        <surName>Ruttenberg</surName>
+      </individualName>
+      <organizationName>US National Park Service</organizationName>
+      <positionName>Marine Ecologist</positionName>
+      <address scope="document">
+        <deliveryPoint>18001 Old Cutter Road</deliveryPoint>
+        <city>Palmetto Bay</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33157</postalCode>
+      </address>
+      <electronicMailAddress>ben_ruttenberg@nps.gov</electronicMailAddress>
+      <role>Co-Author</role>
+    </associatedParty>
+    <associatedParty id="steve.gaines" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Steven</givenName>
+        <surName>Gaines</surName>
+      </individualName>
+      <organizationName>PISCO</organizationName>
+      <address scope="document">
+        <deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+      </address>
+      <electronicMailAddress>gaines@msi.ucsb.edu</electronicMailAddress>
+      <role>Co-Author</role>
+    </associatedParty>
+    <associatedParty id="satie.airame" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Satie</givenName>
+        <surName>Airame</surName>
+      </individualName>
+      <organizationName>PISCO</organizationName>
+      <address scope="document">
+        <deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+      </address>
+      <electronicMailAddress>airame@msi.ucsb.edu</electronicMailAddress>
+      <role>Co-Author</role>
+    </associatedParty>
+    <associatedParty id="bob.warner" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Bob</givenName>
+        <surName>Warner</surName>
+      </individualName>
+      <organizationName>PISCO</organizationName>
+      <address scope="document">
+        <deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+      </address>
+      <electronicMailAddress>warner@lifesci.ucsb.edu</electronicMailAddress>
+      <role>Co-Author</role>
+    </associatedParty>
+    <abstract>
+      <para>
+        This metadata record documents a meta-analysis study synthesizing all
+        peer-reviewed publications (published through 2006) measuring biological
+        variables (numerical density/abundance, biomass, individual size,
+        species richness) inside and outside of reserves and/or before and after
+        reserve implementation. Some of the results from this global synthesis
+        are presented in the Science of Marine Reserves publication, and more
+        detailed results and explanation can be found in the following
+        manuscript: Lester, S. E., B. S. Halpern, K. Grorud-Colvert, J.
+        Lubchenco, B. I. Ruttenberg, S. D. Gaines, S. Airame and R. R. Warner.
+        In review. Biological effects within no-take marine reserves: a global
+        synthesis. Marine Ecology Progress Series.
+      </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Science Of Marine Reserves Data</keyword>
+      <keyword>Synthetic Analysis</keyword>
+      <keywordThesaurus>PISCO Categories</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>marine reserves</keyword>
+      <keyword>temperate</keyword>
+      <keyword>tropical</keyword>
+      <keyword>fishes</keyword>
+      <keyword>invertebrates</keyword>
+      <keyword>algae</keyword>
+      <keyword>marine protected area</keyword>
+      <keyword>conservation</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        We ask that you contact the authors prior to using this
+        information for any purpose. We make this request to: 1. Reduce
+        redundancy; we may be currently working on projects that involve this
+        information. 2. We would like to be informed of and involved in projects
+        developed using this information. Please cite PISCO in all publications
+        containing these data. The citation should take the form: &quot;This study
+        utilized data collected by the Parntership for Interdisciplinary Studies
+        of Coastal Oceans: a long-term ecological consortioum funded by the
+        David and Lucile Packard Foundation and the Gordon and Betty Moore
+        Foundation.&quot;
+     </para>
+    </intellectualRights>
+    <coverage scope="document">
+      <geographicCoverage id="ISLO01" scope="document">
+        <geographicDescription>Islote Lobos: ISLO01: The marine reserve site at Islote Lobos, Argentina.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-65.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>-65.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>-41.41</northBoundingCoordinate>
+          <southBoundingCoordinate>-41.41</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CRPT01" scope="document">
+        <geographicDescription>Crayfish Point: CRPT01: The marine reserve site at Crayfish Point, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>147.36</westBoundingCoordinate>
+          <eastBoundingCoordinate>147.36</eastBoundingCoordinate>
+          <northBoundingCoordinate>-42.90</northBoundingCoordinate>
+          <southBoundingCoordinate>-42.90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GOIS01" scope="document">
+        <geographicDescription>Governor Island: GOIS01: The marine reserve site at Governor Island, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>148.31</westBoundingCoordinate>
+          <eastBoundingCoordinate>148.31</eastBoundingCoordinate>
+          <northBoundingCoordinate>-41.88</northBoundingCoordinate>
+          <southBoundingCoordinate>-41.88</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MAIS01" scope="document">
+        <geographicDescription>Maria Island: MAIS01: The marine reserve site at Maria Island, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>148.15</westBoundingCoordinate>
+          <eastBoundingCoordinate>148.15</eastBoundingCoordinate>
+          <northBoundingCoordinate>-42.58</northBoundingCoordinate>
+          <southBoundingCoordinate>-42.58</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MRRX01" scope="document">
+        <geographicDescription>Merrett Rifle Range: MRRX01: The marine reserve site at Merrett Rifle Range, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>144.80</westBoundingCoordinate>
+          <eastBoundingCoordinate>144.80</eastBoundingCoordinate>
+          <northBoundingCoordinate>-37.80</northBoundingCoordinate>
+          <southBoundingCoordinate>-37.80</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NIPN01" scope="document">
+        <geographicDescription>Ninepin: NIPN01: The marine reserve site at Ninepin, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>147.17</westBoundingCoordinate>
+          <eastBoundingCoordinate>147.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>-43.28</northBoundingCoordinate>
+          <southBoundingCoordinate>-43.28</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TIBX01" scope="document">
+        <geographicDescription>Tinderbox: TIBX01: The marine reserve site at Tinderbox, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>147.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>147.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>-43.06</northBoundingCoordinate>
+          <southBoundingCoordinate>-43.06</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ECRE01" scope="document">
+        <geographicDescription>&quot;Ecological reserve&quot;: ECRE01: The marine reserve site at &quot;Ecological reserve&quot;, Canada.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>-123.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>49.00</northBoundingCoordinate>
+          <southBoundingCoordinate>49.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PRRE01" scope="document">
+        <geographicDescription>&quot;Prison reserve&quot;: PRRE01: The marine reserve site at &quot;Prison reserve&quot;, Canada.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.50</westBoundingCoordinate>
+          <eastBoundingCoordinate>-123.50</eastBoundingCoordinate>
+          <northBoundingCoordinate>49.00</northBoundingCoordinate>
+          <southBoundingCoordinate>49.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="DUIS01" scope="document">
+        <geographicDescription>Duck Islands: DUIS01: The marine reserve site at Duck Islands, Canada.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-53.66</westBoundingCoordinate>
+          <eastBoundingCoordinate>-53.66</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.75</northBoundingCoordinate>
+          <southBoundingCoordinate>48.75</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ROIS01" scope="document">
+        <geographicDescription>Round Island: ROIS01: The marine reserve site at Round Island, Canada.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-53.80</westBoundingCoordinate>
+          <eastBoundingCoordinate>-53.80</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.58</northBoundingCoordinate>
+          <southBoundingCoordinate>48.58</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="WHCL01" scope="document">
+        <geographicDescription>Whytecliff: WHCL01: The marine reserve site at Whytecliff, Canada.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.28</westBoundingCoordinate>
+          <eastBoundingCoordinate>-123.28</eastBoundingCoordinate>
+          <northBoundingCoordinate>49.37</northBoundingCoordinate>
+          <southBoundingCoordinate>49.37</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="LACR01" scope="document">
+        <geographicDescription>Las Cruces: LACR01: The marine reserve site at Las Cruces, Chile.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-71.63</westBoundingCoordinate>
+          <eastBoundingCoordinate>-71.63</eastBoundingCoordinate>
+          <northBoundingCoordinate>-33.52</northBoundingCoordinate>
+          <southBoundingCoordinate>-33.52</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MEHU01" scope="document">
+        <geographicDescription>Mehuin: MEHU01: The marine reserve site at Mehuin, Chile.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-73.23</westBoundingCoordinate>
+          <eastBoundingCoordinate>-73.23</eastBoundingCoordinate>
+          <northBoundingCoordinate>-39.44</northBoundingCoordinate>
+          <southBoundingCoordinate>-39.44</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CLRX01" scope="document">
+        <geographicDescription>Carry-le-Rouet: CLRX01: The marine reserve site at Carry-le-Rouet, France.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>5.17</westBoundingCoordinate>
+          <eastBoundingCoordinate>5.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.33</northBoundingCoordinate>
+          <southBoundingCoordinate>43.33</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CEBX01" scope="document">
+        <geographicDescription>Cerb`ere-Banyuls: CEBX01: The marine reserve site at Cerb`ere-Banyuls, France.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>3.12</westBoundingCoordinate>
+          <eastBoundingCoordinate>3.12</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.50</northBoundingCoordinate>
+          <southBoundingCoordinate>42.50</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CCBM01" scope="document">
+        <geographicDescription>Couronne, C^ote Bleue Marine Park: CCBM01: The marine reserve site at Couronne, C^ote Bleue Marine Park, France.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>5.10</westBoundingCoordinate>
+          <eastBoundingCoordinate>5.10</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.40</northBoundingCoordinate>
+          <southBoundingCoordinate>43.40</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SCAN01" scope="document">
+        <geographicDescription>Scandola: SCAN01: The marine reserve site at Scandola, France.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>8.53</westBoundingCoordinate>
+          <eastBoundingCoordinate>8.53</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.30</northBoundingCoordinate>
+          <southBoundingCoordinate>42.30</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CAPR01" scope="document">
+        <geographicDescription>Capraia: CAPR01: The marine reserve site at Capraia, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>9.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>9.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.03</northBoundingCoordinate>
+          <southBoundingCoordinate>43.03</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CITE01" scope="document">
+        <geographicDescription>Cinque Terre: CITE01: The marine reserve site at Cinque Terre, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>9.67</westBoundingCoordinate>
+          <eastBoundingCoordinate>9.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.17</northBoundingCoordinate>
+          <southBoundingCoordinate>44.17</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GIAN01" scope="document">
+        <geographicDescription>Giannutri: GIAN01: The marine reserve site at Giannutri, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>11.10</westBoundingCoordinate>
+          <eastBoundingCoordinate>11.10</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.25</northBoundingCoordinate>
+          <southBoundingCoordinate>42.25</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MIRA01" scope="document">
+        <geographicDescription>Miramare: MIRA01: The marine reserve site at Miramare, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>13.75</westBoundingCoordinate>
+          <eastBoundingCoordinate>13.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.55</northBoundingCoordinate>
+          <southBoundingCoordinate>45.55</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOIS01" scope="document">
+        <geographicDescription>Molarotto Island: MOIS01: The marine reserve site at Molarotto Island, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>9.81</westBoundingCoordinate>
+          <eastBoundingCoordinate>9.81</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.59</northBoundingCoordinate>
+          <southBoundingCoordinate>40.59</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TOGU01" scope="document">
+        <geographicDescription>Torre Guaceto: TOGU01: The marine reserve site at Torre Guaceto, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>17.80</westBoundingCoordinate>
+          <eastBoundingCoordinate>17.80</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.70</northBoundingCoordinate>
+          <southBoundingCoordinate>40.70</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="USIS01" scope="document">
+        <geographicDescription>Ustica Island: USIS01: The marine reserve site at Ustica Island, Italy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>13.15</westBoundingCoordinate>
+          <eastBoundingCoordinate>13.15</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.75</northBoundingCoordinate>
+          <southBoundingCoordinate>38.75</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CROP01" scope="document">
+        <geographicDescription>&quot;Cape Rodney-Okakari Point/Leigh&quot;: CROP01: The marine reserve site at &quot;Cape Rodney-Okakari Point/Leigh&quot;, New Zealand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>174.80</westBoundingCoordinate>
+          <eastBoundingCoordinate>174.80</eastBoundingCoordinate>
+          <northBoundingCoordinate>-36.27</northBoundingCoordinate>
+          <southBoundingCoordinate>-36.27</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HAHE01" scope="document">
+        <geographicDescription>Hahei: HAHE01: The marine reserve site at Hahei, New Zealand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>175.82</westBoundingCoordinate>
+          <eastBoundingCoordinate>175.82</eastBoundingCoordinate>
+          <northBoundingCoordinate>-36.83</northBoundingCoordinate>
+          <southBoundingCoordinate>-36.83</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="LIKO01" scope="document">
+        <geographicDescription>&quot;Long Island-Kokomohua&quot;: LIKO01: The marine reserve site at &quot;Long Island-Kokomohua&quot;, New Zealand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>174.17</westBoundingCoordinate>
+          <eastBoundingCoordinate>174.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>-41.20</northBoundingCoordinate>
+          <southBoundingCoordinate>-41.20</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PKIS01" scope="document">
+        <geographicDescription>Poor Knights Island: PKIS01: The marine reserve site at Poor Knights Island, New Zealand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>174.71</westBoundingCoordinate>
+          <eastBoundingCoordinate>174.71</eastBoundingCoordinate>
+          <northBoundingCoordinate>-35.47</northBoundingCoordinate>
+          <southBoundingCoordinate>-35.47</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TAWH01" scope="document">
+        <geographicDescription>Tawharanui: TAWH01: The marine reserve site at Tawharanui, New Zealand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>174.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>174.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>-36.35</northBoundingCoordinate>
+          <southBoundingCoordinate>-36.35</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TOIS01" scope="document">
+        <geographicDescription>Tonga Island: TOIS01: The marine reserve site at Tonga Island, New Zealand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>173.07</westBoundingCoordinate>
+          <eastBoundingCoordinate>173.07</eastBoundingCoordinate>
+          <northBoundingCoordinate>-40.88</northBoundingCoordinate>
+          <southBoundingCoordinate>-40.88</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BEBY01" scope="document">
+        <geographicDescription>Betty&apos;s Bay: BEBY01: The marine reserve site at Betty&apos;s Bay, South Africa.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>18.90</westBoundingCoordinate>
+          <eastBoundingCoordinate>18.90</eastBoundingCoordinate>
+          <northBoundingCoordinate>-34.37</northBoundingCoordinate>
+          <southBoundingCoordinate>-34.37</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="DEHO01" scope="document">
+        <geographicDescription>De Hoop: DEHO01: The marine reserve site at De Hoop, South Africa.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>20.50</westBoundingCoordinate>
+          <eastBoundingCoordinate>20.50</eastBoundingCoordinate>
+          <northBoundingCoordinate>-34.50</northBoundingCoordinate>
+          <southBoundingCoordinate>-34.50</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="DWCW01" scope="document">
+        <geographicDescription>Dwesa-Cwebe: DWCW01: The marine reserve site at Dwesa-Cwebe, South Africa.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>28.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>28.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>-32.30</northBoundingCoordinate>
+          <southBoundingCoordinate>-32.30</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HLUL01" scope="document">
+        <geographicDescription>Hluleka: HLUL01: The marine reserve site at Hluleka, South Africa.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>29.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>29.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>-31.82</northBoundingCoordinate>
+          <southBoundingCoordinate>-31.82</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ISLA01" scope="document">
+        <geographicDescription>Isi laka: ISLA01: The marine reserve site at Isi laka, South Africa.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>29.17</westBoundingCoordinate>
+          <eastBoundingCoordinate>29.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>-32.00</northBoundingCoordinate>
+          <southBoundingCoordinate>-32.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TSIT01" scope="document">
+        <geographicDescription>Tsitsikamma: TSIT01: The marine reserve site at Tsitsikamma, South Africa.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>23.88</westBoundingCoordinate>
+          <eastBoundingCoordinate>23.88</eastBoundingCoordinate>
+          <northBoundingCoordinate>-34.02</northBoundingCoordinate>
+          <southBoundingCoordinate>-34.02</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CDGX01" scope="document">
+        <geographicDescription>Cabo de Gata: CDGX01: The marine reserve site at Cabo de Gata, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-2.18</westBoundingCoordinate>
+          <eastBoundingCoordinate>-2.18</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.70</northBoundingCoordinate>
+          <southBoundingCoordinate>36.70</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CDPX01" scope="document">
+        <geographicDescription>Cabo de Palos: CDPX01: The marine reserve site at Cabo de Palos, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-0.70</westBoundingCoordinate>
+          <eastBoundingCoordinate>-0.70</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.63</northBoundingCoordinate>
+          <southBoundingCoordinate>37.63</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CABR01" scope="document">
+        <geographicDescription>Cabrera: CABR01: The marine reserve site at Cabrera, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>2.97</westBoundingCoordinate>
+          <eastBoundingCoordinate>2.97</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.17</northBoundingCoordinate>
+          <southBoundingCoordinate>39.17</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="COIS01" scope="document">
+        <geographicDescription>Columbretes Islands: COIS01: The marine reserve site at Columbretes Islands, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>0.72</westBoundingCoordinate>
+          <eastBoundingCoordinate>0.72</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.87</northBoundingCoordinate>
+          <southBoundingCoordinate>39.87</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GAZT01" scope="document">
+        <geographicDescription>Gaztelugatxe: GAZT01: The marine reserve site at Gaztelugatxe, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-2.77</westBoundingCoordinate>
+          <eastBoundingCoordinate>-2.77</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.45</northBoundingCoordinate>
+          <southBoundingCoordinate>43.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GRLA01" scope="document">
+        <geographicDescription>Isla La Graciosa e islotes del norte de Lanzarote: GRLA01: The marine reserve site at Isla La Graciosa e islotes del norte de Lanzarote, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-13.15</westBoundingCoordinate>
+          <eastBoundingCoordinate>-13.15</eastBoundingCoordinate>
+          <northBoundingCoordinate>29.30</northBoundingCoordinate>
+          <southBoundingCoordinate>29.30</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MEIS01" scope="document">
+        <geographicDescription>Medes Islands: MEIS01: The marine reserve site at Medes Islands, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>3.22</westBoundingCoordinate>
+          <eastBoundingCoordinate>3.22</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.27</northBoundingCoordinate>
+          <southBoundingCoordinate>42.27</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PLRM01" scope="document">
+        <geographicDescription>Punta La Restinga-Mar de Las Calmas: PRLM01: The marine reserve site at Punta La Restinga-Mar de Las Calmas, Spain.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-18.07</westBoundingCoordinate>
+          <eastBoundingCoordinate>-18.07</eastBoundingCoordinate>
+          <northBoundingCoordinate>27.59</northBoundingCoordinate>
+          <southBoundingCoordinate>27.59</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ANIS01" scope="document">
+        <geographicDescription>Anacapa Island, CA: ANIS01: The marine reserve site at Anacapa Island, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.00</northBoundingCoordinate>
+          <southBoundingCoordinate>34.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BICR01" scope="document">
+        <geographicDescription>Big Creek, CA: BICR01: The marine reserve site at Big Creek, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.61</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.61</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.07</northBoundingCoordinate>
+          <southBoundingCoordinate>36.07</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GECO01" scope="document">
+        <geographicDescription>Gerstle Cove, CA: GECO01: The marine reserve site at Gerstle Cove, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.40</westBoundingCoordinate>
+          <eastBoundingCoordinate>-123.40</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.60</northBoundingCoordinate>
+          <southBoundingCoordinate>38.60</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HMSX01" scope="document">
+        <geographicDescription>Hopkins Marine Station, CA: HMSX01: The marine reserve site at Hopkins Marine Station, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.88</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.88</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.62</northBoundingCoordinate>
+          <southBoundingCoordinate>36.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NABA01" scope="document">
+        <geographicDescription>Narangasset Bay, RI: NABA01: The marine reserve site at Narangasset Bay, RI, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-71.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>-71.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>41.67</northBoundingCoordinate>
+          <southBoundingCoordinate>41.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PGDF01" scope="document">
+        <geographicDescription>Platform Gail de facto reserve, CA: PGDF01: The marine reserve site at Platform Gail de facto reserve, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.40</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.40</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.10</northBoundingCoordinate>
+          <southBoundingCoordinate>34.10</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="POLO01" scope="document">
+        <geographicDescription>Point Lobos, CA: POLO01: The marine reserve site at Point Lobos, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.95</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.95</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.52</northBoundingCoordinate>
+          <southBoundingCoordinate>36.52</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SDLJ01" scope="document">
+        <geographicDescription>San Diego-La Jolla, CA: SDLJ01: The marine reserve site at San Diego-La Jolla, CA, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-117.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>-117.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.83</northBoundingCoordinate>
+          <southBoundingCoordinate>32.83</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HEIS01" scope="document">
+        <geographicDescription>Heron Island: HEIS01: The marine reserve site at Heron Island, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>151.92</westBoundingCoordinate>
+          <eastBoundingCoordinate>151.92</eastBoundingCoordinate>
+          <northBoundingCoordinate>-23.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-23.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="KEIS01" scope="document">
+        <geographicDescription>Keppel Islands: KEIS01: The marine reserve site at Keppel Islands, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>150.95</westBoundingCoordinate>
+          <eastBoundingCoordinate>150.95</eastBoundingCoordinate>
+          <northBoundingCoordinate>-23.17</northBoundingCoordinate>
+          <southBoundingCoordinate>-23.17</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="LIIS01" scope="document">
+        <geographicDescription>Lizard Island: LIIS01: The marine reserve site at Lizard Island, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>145.47</westBoundingCoordinate>
+          <eastBoundingCoordinate>145.47</eastBoundingCoordinate>
+          <northBoundingCoordinate>-14.67</northBoundingCoordinate>
+          <southBoundingCoordinate>-14.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MASZ01" scope="document">
+        <geographicDescription>Mandu sanctuary zone: MASZ01: The marine reserve site at Mandu sanctuary zone, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>113.87</westBoundingCoordinate>
+          <eastBoundingCoordinate>113.87</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.12</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.12</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MDSZ01" scope="document">
+        <geographicDescription>Maud sanctuary zone: MDSZ01: The marine reserve site at Maud sanctuary zone, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>113.77</westBoundingCoordinate>
+          <eastBoundingCoordinate>113.77</eastBoundingCoordinate>
+          <northBoundingCoordinate>-23.13</northBoundingCoordinate>
+          <southBoundingCoordinate>-23.13</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="OSSZ01" scope="document">
+        <geographicDescription>Osprey sanctuary zone: OSSZ01: The marine reserve site at Osprey sanctuary zone, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>113.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>113.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.23</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.23</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PAIS01" scope="document">
+        <geographicDescription>Palm Islands: PAIS01: The marine reserve site at Palm Islands, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>146.48</westBoundingCoordinate>
+          <eastBoundingCoordinate>146.48</eastBoundingCoordinate>
+          <northBoundingCoordinate>-18.57</northBoundingCoordinate>
+          <southBoundingCoordinate>-18.57</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TRBI01" scope="document">
+        <geographicDescription>Tripcony Bight: TRBI01: The marine reserve site at Tripcony Bight, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>153.32</westBoundingCoordinate>
+          <eastBoundingCoordinate>153.32</eastBoundingCoordinate>
+          <northBoundingCoordinate>-27.40</northBoundingCoordinate>
+          <southBoundingCoordinate>-27.40</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="WHIS01" scope="document">
+        <geographicDescription>Whitsunday Islands: WHIS01: The marine reserve site at Whitsunday Islands, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>149.93</westBoundingCoordinate>
+          <eastBoundingCoordinate>149.93</eastBoundingCoordinate>
+          <northBoundingCoordinate>-20.13</northBoundingCoordinate>
+          <southBoundingCoordinate>-20.13</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="WIIS01" scope="document">
+        <geographicDescription>Willes Island: WIIS01: The marine reserve site at Willes Island, Australia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>153.35</westBoundingCoordinate>
+          <eastBoundingCoordinate>153.35</eastBoundingCoordinate>
+          <northBoundingCoordinate>-27.50</northBoundingCoordinate>
+          <southBoundingCoordinate>-27.50</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ECLS01" scope="document">
+        <geographicDescription>Exuma Cays Land and Sea Park: ECLS01: The marine reserve site at Exuma Cays Land and Sea Park, Bahamas.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-76.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>-76.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>24.50</northBoundingCoordinate>
+          <southBoundingCoordinate>24.50</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BARB01" scope="document">
+        <geographicDescription>Barbados: BARB01: The marine reserve site at Barbados, Barbados.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-59.65</westBoundingCoordinate>
+          <eastBoundingCoordinate>-59.65</eastBoundingCoordinate>
+          <northBoundingCoordinate>13.18</northBoundingCoordinate>
+          <southBoundingCoordinate>13.18</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GLRE01" scope="document">
+        <geographicDescription>Glover&apos;s Reef: GLRE01: The marine reserve site at Glover&apos;s Reef, Belize.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-87.77</westBoundingCoordinate>
+          <eastBoundingCoordinate>-87.77</eastBoundingCoordinate>
+          <northBoundingCoordinate>16.83</northBoundingCoordinate>
+          <southBoundingCoordinate>16.83</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HMCX01" scope="document">
+        <geographicDescription>Half Moon Caye: HMCX01: The marine reserve site at Half Moon Caye, Belize.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-87.52</westBoundingCoordinate>
+          <eastBoundingCoordinate>-87.52</eastBoundingCoordinate>
+          <northBoundingCoordinate>17.22</northBoundingCoordinate>
+          <southBoundingCoordinate>17.22</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="HOCH01" scope="document">
+        <geographicDescription>Hol Chan: HOCH01: The marine reserve site at Hol Chan, Belize.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-87.98</westBoundingCoordinate>
+          <eastBoundingCoordinate>-87.98</eastBoundingCoordinate>
+          <northBoundingCoordinate>17.87</northBoundingCoordinate>
+          <southBoundingCoordinate>17.87</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ARQU01" scope="document">
+        <geographicDescription>Arquipelago: ARQU01: The marine reserve site at Arquipelago, Brazil.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-39.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>-39.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>-18.00</northBoundingCoordinate>
+          <southBoundingCoordinate>-18.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="FDNX01" scope="document">
+        <geographicDescription>Fernando de Noronha: FDNX01: The marine reserve site at Fernando de Noronha, Brazil.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-32.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>-32.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>-3.85</northBoundingCoordinate>
+          <southBoundingCoordinate>-3.85</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CIMP01" scope="document">
+        <geographicDescription>Cayman Islands marine park zones: CIMP01: The marine reserve site at Cayman Islands marine park zones, Cayman Islands.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.40</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.40</eastBoundingCoordinate>
+          <northBoundingCoordinate>19.35</northBoundingCoordinate>
+          <southBoundingCoordinate>19.35</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MAAN01" scope="document">
+        <geographicDescription>Manuel Antoino: MAAN01: The marine reserve site at Manuel Antoino, Costa Rica.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.15</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.15</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.37</northBoundingCoordinate>
+          <southBoundingCoordinate>9.37</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PNPF01" scope="document">
+        <geographicDescription>Parque Nacional Punta Frances: PNPF01: The marine reserve site at Parque Nacional Punta Frances, Cuba.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.17</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>21.60</northBoundingCoordinate>
+          <southBoundingCoordinate>21.60</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="DEDX01" scope="document">
+        <geographicDescription>Dagal/El-dakal: DEDX01: The marine reserve site at Dagal/El-dakal, Egypt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.43</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.43</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.21</northBoundingCoordinate>
+          <southBoundingCoordinate>28.21</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NETX01" scope="document">
+        <geographicDescription>Nakhlet El Tal: NETX01: The marine reserve site at Nakhlet El Tal, Egypt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.45</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.45</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.15</northBoundingCoordinate>
+          <southBoundingCoordinate>28.15</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="RATX01" scope="document">
+        <geographicDescription>Ras Atantour/Tantor: RATX01: The marine reserve site at Ras Atantour/Tantor, Egypt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.25</northBoundingCoordinate>
+          <southBoundingCoordinate>28.25</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="RAMO01" scope="document">
+        <geographicDescription>Ras Mohamad: RAMO01: The marine reserve site at Ras Mohamad, Egypt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>27.73</northBoundingCoordinate>
+          <southBoundingCoordinate>27.73</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="RANA01" scope="document">
+        <geographicDescription>Ras Nasrani: RANA01: The marine reserve site at Ras Nasrani, Egypt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.50</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.50</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.00</northBoundingCoordinate>
+          <southBoundingCoordinate>28.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SOGH01" scope="document">
+        <geographicDescription>South Ghargana: SOGH01: The marine reserve site at South Ghargana, Egypt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.43</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.43</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.12</northBoundingCoordinate>
+          <southBoundingCoordinate>28.12</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MYIS01" scope="document">
+        <geographicDescription>Mayotte Island: MYIS01: The marine reserve site at Mayotte Island, France.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>45.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>45.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>-15.85</northBoundingCoordinate>
+          <southBoundingCoordinate>-15.85</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="COBE01" scope="document">
+        <geographicDescription>Coral Beach: COBE01: The marine reserve site at Coral Beach, Israel.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.95</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.95</eastBoundingCoordinate>
+          <northBoundingCoordinate>29.50</northBoundingCoordinate>
+          <southBoundingCoordinate>29.50</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PEBA01" scope="document">
+        <geographicDescription>Pedro Bank: PEBA01: The marine reserve site at Pedro Bank, Jamaica.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-77.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>-77.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>17.00</northBoundingCoordinate>
+          <southBoundingCoordinate>17.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="KISI01" scope="document">
+        <geographicDescription>Kisite: KISI01: The marine reserve site at Kisite, Kenya.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>40.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>40.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>-4.67</northBoundingCoordinate>
+          <southBoundingCoordinate>-4.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MALI01" scope="document">
+        <geographicDescription>Malindi: MALI01: The marine reserve site at Malindi, Kenya.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>40.17</westBoundingCoordinate>
+          <eastBoundingCoordinate>40.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>-3.20</northBoundingCoordinate>
+          <southBoundingCoordinate>-3.20</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOMB01" scope="document">
+        <geographicDescription>Mombasa: MOMB01: The marine reserve site at Mombasa, Kenya.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>39.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>39.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>-4.00</northBoundingCoordinate>
+          <southBoundingCoordinate>-4.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="WATA01" scope="document">
+        <geographicDescription>Watamu: WATA01: The marine reserve site at Watamu, Kenya.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>40.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>40.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>-3.37</northBoundingCoordinate>
+          <southBoundingCoordinate>-3.37</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SABA01" scope="document">
+        <geographicDescription>Saba: SABA01: The marine reserve site at Saba, Netherland Antilles.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-63.23</westBoundingCoordinate>
+          <eastBoundingCoordinate>-63.23</eastBoundingCoordinate>
+          <northBoundingCoordinate>17.63</northBoundingCoordinate>
+          <southBoundingCoordinate>17.63</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ABRE01" scope="document">
+        <geographicDescription>Abore Reef: ABRE01: The marine reserve site at Abore Reef, New Caledonia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.40</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.40</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AMED01" scope="document">
+        <geographicDescription>Amedee: AMED01: The marine reserve site at Amedee, New Caledonia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.00</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.00</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BAIL01" scope="document">
+        <geographicDescription>Bailly: BAIL01: The marine reserve site at Bailly, New Caledonia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.50</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.50</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.67</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="LEIS01" scope="document">
+        <geographicDescription>Lar&apos;egn`ere islet: LEIS01: The marine reserve site at Lar&apos;egn`ere islet, New Caledonia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.30</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.30</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.33</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.33</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MAIT01" scope="document">
+        <geographicDescription>Maitre: MAIT01: The marine reserve site at Maitre, New Caledonia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.37</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.37</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SIGN01" scope="document">
+        <geographicDescription>Signal: SIGN01: The marine reserve site at Signal, New Caledonia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>-22.17</northBoundingCoordinate>
+          <southBoundingCoordinate>-22.17</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TAPU01" scope="document">
+        <geographicDescription>Tamane Puli: TAPU01: The marine reserve site at Tamane Puli, Papua New Guinea.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>150.10</westBoundingCoordinate>
+          <eastBoundingCoordinate>150.10</eastBoundingCoordinate>
+          <northBoundingCoordinate>-5.42</northBoundingCoordinate>
+          <southBoundingCoordinate>-5.42</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ALEG01" scope="document">
+        <geographicDescription>Alegre: ALEG01: The marine reserve site at Alegre, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>124.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>124.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>10.45</northBoundingCoordinate>
+          <southBoundingCoordinate>10.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="APIS01" scope="document">
+        <geographicDescription>Apo Island: APIS01: The marine reserve site at Apo Island, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.83</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.83</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.07</northBoundingCoordinate>
+          <southBoundingCoordinate>9.07</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BALI01" scope="document">
+        <geographicDescription>Balicasag: BALI01: The marine reserve site at Balicasag, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.68</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.68</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.52</northBoundingCoordinate>
+          <southBoundingCoordinate>9.52</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BINA01" scope="document">
+        <geographicDescription>Binaliwan: BINA01: The marine reserve site at Binaliwan, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>124.75</westBoundingCoordinate>
+          <eastBoundingCoordinate>124.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.20</northBoundingCoordinate>
+          <southBoundingCoordinate>9.20</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BLOI01" scope="document">
+        <geographicDescription>Bolisong: BOLI01: The marine reserve site at Bolisong, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.20</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.45</northBoundingCoordinate>
+          <southBoundingCoordinate>9.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BONG01" scope="document">
+        <geographicDescription>Bongalonan: BONG01: The marine reserve site at Bongalonan, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>122.60</westBoundingCoordinate>
+          <eastBoundingCoordinate>122.60</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.45</northBoundingCoordinate>
+          <southBoundingCoordinate>9.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CANG01" scope="document">
+        <geographicDescription>Cangmating: CANG01: The marine reserve site at Cangmating, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.30</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.30</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.40</northBoundingCoordinate>
+          <southBoundingCoordinate>9.40</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CANL01" scope="document">
+        <geographicDescription>Canlucani: CANL01: The marine reserve site at Canlucani, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.40</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.40</eastBoundingCoordinate>
+          <northBoundingCoordinate>8.65</northBoundingCoordinate>
+          <southBoundingCoordinate>8.65</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARE01" scope="document">
+        <geographicDescription>Carbin Reef: CARE01: The marine reserve site at Carbin Reef, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>10.90</northBoundingCoordinate>
+          <southBoundingCoordinate>10.90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MARE01" scope="document">
+        <geographicDescription>Maca Reef: MARE01: The marine reserve site at Maca Reef, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>10.90</northBoundingCoordinate>
+          <southBoundingCoordinate>10.90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MASA01" scope="document">
+        <geographicDescription>Masaplod: MASA01: The marine reserve site at Masaplod, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.15</northBoundingCoordinate>
+          <southBoundingCoordinate>9.15</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="PMIS01" scope="document">
+        <geographicDescription>Pamilacan Island: PMIS01: The marine reserve site at Pamilacan Island, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.92</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.92</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.49</northBoundingCoordinate>
+          <southBoundingCoordinate>9.49</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SUMI01" scope="document">
+        <geographicDescription>Sumilon: SUMI01: The marine reserve site at Sumilon, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.38</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.38</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.35</northBoundingCoordinate>
+          <southBoundingCoordinate>9.35</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SUMO01" scope="document">
+        <geographicDescription>Sumilon &quot;outside&quot;: SUMO01: The marine reserve site at Sumilon &quot;outside&quot;, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.42</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.35</northBoundingCoordinate>
+          <southBoundingCoordinate>9.35</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TAMB01" scope="document">
+        <geographicDescription>Tambobo: TAMB01: The marine reserve site at Tambobo, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.20</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.07</northBoundingCoordinate>
+          <southBoundingCoordinate>9.07</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TAND01" scope="document">
+        <geographicDescription>Tandayag: TAND01: The marine reserve site at Tandayag, Philippines.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>123.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.50</northBoundingCoordinate>
+          <southBoundingCoordinate>9.50</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CNIS01" scope="document">
+        <geographicDescription>Cousin Island: CNIS01: The marine reserve site at Cousin Island, Seychelles.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>55.67</westBoundingCoordinate>
+          <eastBoundingCoordinate>55.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-4.32</northBoundingCoordinate>
+          <southBoundingCoordinate>-4.32</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SAAN01" scope="document">
+        <geographicDescription>Sainte Anne: SAAN01: The marine reserve site at Sainte Anne, Seychelles.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>55.50</westBoundingCoordinate>
+          <eastBoundingCoordinate>55.50</eastBoundingCoordinate>
+          <northBoundingCoordinate>-4.57</northBoundingCoordinate>
+          <southBoundingCoordinate>-4.57</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ARIS01" scope="document">
+        <geographicDescription>Arnavon Islands: ARIS01: The marine reserve site at Arnavon Islands, Solomon Island.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>158.10</westBoundingCoordinate>
+          <eastBoundingCoordinate>158.10</eastBoundingCoordinate>
+          <northBoundingCoordinate>-7.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-7.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ANCH01" scope="document">
+        <geographicDescription>Anse Chastanet: ANCH01: The marine reserve site at Anse Chastanet, St. Lucia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-60.95</westBoundingCoordinate>
+          <eastBoundingCoordinate>-60.95</eastBoundingCoordinate>
+          <northBoundingCoordinate>13.90</northBoundingCoordinate>
+          <southBoundingCoordinate>13.90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SOUF01" scope="document">
+        <geographicDescription>Soufriere: SOUF01: The marine reserve site at Soufriere, St. Lucia.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-61.10</westBoundingCoordinate>
+          <eastBoundingCoordinate>-61.10</eastBoundingCoordinate>
+          <northBoundingCoordinate>13.80</northBoundingCoordinate>
+          <southBoundingCoordinate>13.80</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="FOJE01" scope="document">
+        <geographicDescription>Fort Jefferson, FL: FOJE01: The marine reserve site at Fort Jefferson, FL, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-82.87</westBoundingCoordinate>
+          <eastBoundingCoordinate>-82.87</eastBoundingCoordinate>
+          <northBoundingCoordinate>24.63</northBoundingCoordinate>
+          <southBoundingCoordinate>24.63</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="KEHI01" scope="document">
+        <geographicDescription>Kealakakua, HI: KEHI01: The marine reserve site at Kealakakua, HI, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-155.90</westBoundingCoordinate>
+          <eastBoundingCoordinate>-155.90</eastBoundingCoordinate>
+          <northBoundingCoordinate>19.48</northBoundingCoordinate>
+          <southBoundingCoordinate>19.48</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="LKRF01" scope="document">
+        <geographicDescription>Looe Key Reef, FL: LKRF01: The marine reserve site at Looe Key Reef, FL, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.40</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.40</eastBoundingCoordinate>
+          <northBoundingCoordinate>24.55</northBoundingCoordinate>
+          <southBoundingCoordinate>24.55</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MAHI01" scope="document">
+        <geographicDescription>Manele, HI: MAHI01: The marine reserve site at Manele, HI, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-156.90</westBoundingCoordinate>
+          <eastBoundingCoordinate>-156.90</eastBoundingCoordinate>
+          <northBoundingCoordinate>20.72</northBoundingCoordinate>
+          <southBoundingCoordinate>20.72</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MIFL01" scope="document">
+        <geographicDescription>Merritt Island, FL: MIFL01: The marine reserve site at Merritt Island, FL, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-80.67</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>28.67</northBoundingCoordinate>
+          <southBoundingCoordinate>28.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="RHBF01" scope="document">
+        <geographicDescription>Red Hind Bank, FL: RHBF01: The marine reserve site at Red Hind Bank, FL, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-65.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>-65.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.20</northBoundingCoordinate>
+          <southBoundingCoordinate>18.20</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="TBFL01" scope="document">
+        <geographicDescription>Tortugas Bank, FL: TBFL01: The marine reserve site at Tortugas Bank, FL, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>24.72</northBoundingCoordinate>
+          <southBoundingCoordinate>24.72</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="WSFL01" scope="document">
+        <geographicDescription>Western Sambo, FL: WSFL01: The marine reserve site at Western Sambo, FL, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.86</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.86</eastBoundingCoordinate>
+          <northBoundingCoordinate>24.60</northBoundingCoordinate>
+          <southBoundingCoordinate>24.60</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="LRAX01" scope="document">
+        <geographicDescription>Los Roques Archipelago: LRAX01: The marine reserve site at Los Roques Archipelago, Venezuela.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-66.75</westBoundingCoordinate>
+          <eastBoundingCoordinate>-66.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>11.80</northBoundingCoordinate>
+          <southBoundingCoordinate>11.80</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage><temporalCoverage scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1977</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2006</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact scope="document">
+      <references>sarah.lester</references>
+    </contact>
+    <contact scope="document">
+      <references>ben.halpern</references>
+    </contact>
+    <contact scope="document">
+      <references>kirsten.grorud-colvert</references>
+    </contact>
+    <contact scope="document">
+      <organizationName>PISCO</organizationName>
+      <positionName>Marine Reserve Science Coordinator</positionName>
+      <electronicMailAddress>marinereserves@science.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.piscoweb.org/outreach/pubs/reserves</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Meta-analysis Methods</title>
+            <para>
+              We conducted a comprehensive survey of the peer-reviewed
+              scientific literature to compile a database of studies that
+              document biological effects of marine reserves. We included only
+              peer-reviewed studies of fully-protected, no-take marine reserves
+              and only those studies for which effects were measured for
+              individual reserves. Studies must have measured at least one of
+              four key biological variables (numerical density or biomass/area
+              of organisms, individual organism size, or species richness/area)
+              and must have quantified the variable(s) either: (1) inside and
+              outside the reserve, (2) before and after reserve implementation,
+              or (3) inside and outside the reserve both before and after
+              implementation.
+            </para>
+            <para>
+              The resulting database contains 149 peer-reviewed scientific
+              publications published between 1977 and 2006 of 124 different
+              marine reserves located in 29 countries. Because some reserves are
+              studied in more than one publication and some publications study
+              multiple reserves, the database includes 221 &quot;studies&quot;.
+              For most of the reserves in the database (n = 108), we were able
+              to find a reliable estimate of its area (km^2). We classified each
+              reserve as being located in either a temperate (n = 53) or
+              tropical (n = 71) ecosystem based on latitude, region, and
+              habitat.
+            </para>
+            <para>
+              For each study, we extracted quantitative data from text, tables,
+              and figures for the four biological variables (density or
+              biomass/area of organisms, individual organism size, or species
+              richness/area) inside and outside the reserve, before and after
+              implementation, or inside and outside the reserve before and after
+              implementation. Data were extracted at the most aggregated
+              taxonomic level available, even if the level of taxonomic
+              resolution differed within or among studies. For example, if a
+              study reported data for particular fish families in addition to
+              species level data for other fish families, all of these data were
+              extracted (but species level data for a fish family for which
+              family level data were reported would not be extracted). If a
+              study reported data in categories for both the reserve and
+              &quot;control&quot; area (e.g., by depth, habitat type, or
+              organism size classes), these values were averaged into single
+              values. If multiple time steps of data were reported for an
+              Outside/Inside comparison, we used the most recent data because
+              they represent the longest duration of protection. In order to be
+              used as a Before/After or Before/After/Inside/Outside comparison,
+              &quot;before&quot; data must have been collected no later than
+              three months after reserve establishment. If data were collected
+              at multiple times before reserve implementation, the data from the
+              &quot;before&quot; time steps were averaged unless there was an
+              obvious trend prior to implementation (in which case the most
+              recent data prior to implementation were extracted). We always
+              used the most recent &quot;after&quot; data to represent the
+              longest duration of protection.
+            </para>
+            <para>
+              To quantify the effect of reserve protection using a comparable
+              metric across studies, we calculated response ratios of the four
+              biological variables as: (1) the ratio of Inside to Outside, (2)
+              the ratio of After to Before, or (3) the ratio of After to Before
+              within the reserve, controlling for temporal changes outside the
+              reserve ([AfterInside/BeforeInside] /
+              [AfterOutside/BeforeOutside]). Using the extracted data, we
+              calculated response ratios within each study for each biological
+              variable. When data were extracted for multiple taxa in a given
+              study, we then averaged these response ratios to determine the
+              overall (study) ratio for all taxa examined, regardless of how
+              many species/taxa were studied. Overall (study) ratios represent
+              from one to several hundred species depending on the study.
+              Furthermore, if a study reported data separately for more than one
+              of our broad taxonomic groups (fishes, invertebrates, algae), we
+              calculated an average for each group first and then averaged these
+              group values to determine the overall ratio. This was done to give
+              the best estimates of community-level responses, although in very
+              few cases did this procedure yield a different value than the
+              value obtained by averaging all data without calculating taxonomic
+              group averages first.
+            </para>
+            <para>
+              Some reserves have been the subject of numerous published studies.
+              We did not want to bias our analyses in favor of the most
+              frequently studied reserves, so we calculated the average reserve
+              ratio from all of the study ratios (and again for taxonomic group,
+              algae-only and invertebrate-only study ratios) for reserves that
+              were the subject of more than one study. We chose to calculate a
+              reserve average rather than using the most recent study because
+              often different studies of the same reserve varied in the taxa
+              measured, the survey methods used, or in the investigators
+              conducting the research. For reserves that were the subject of a
+              single study, the reserve ratio is equivalent to the study ratio.
+              We converted the ratios to percentage increases or decreases to
+              facilitate interpretation ([(response ratio - 1)*100]; e.g., a
+              density response ratio of 2.5 is equal to a 150% increase). These
+              procedures were repeated for each of the four biological response
+              variables.
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project scope="document">
+      <title>Partnership for Interdisiplinary Studies of Coastal Oceans</title>
+      <personnel scope="document">
+        <organizationName>PISCO</organizationName>
+        <role>PISCO Consortium</role>
+      </personnel>
+      <funding>
+        <para>David and Lucile Packard Foundation, Gordon and Betty Moore Foundation</para>
+      </funding>
+    </project>
+    <access authSystem="ldap://ldap.ecoinformatics.org:389/dc=ecoinformatics,dc=org" order="denyFirst" scope="document">
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+      <allow>
+        <principal>uid=lester,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>uid=grorudck,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>cn=data-managers,o=PISCOGROUPS,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+    </access>
+    <dataTable id="pisco.smr.studylist" scope="document">
+      <entityName>pisco_smr_studylist.csv</entityName>
+      <entityDescription>Science of Marine Reserves meta-analysis, list of studied reserves</entityDescription>
+      <physical scope="document">
+        <objectName>pisco_smr_studylist.csv</objectName>
+        <size unit="byte">22467</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>&quot;</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution id="pisco.smr.studylist.url" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/pisco_smr_synthesis.2.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute scope="document">
+          <attributeName>Reserve</attributeName>
+          <attributeLabel>Reserve Name</attributeLabel>
+          <attributeDefinition>The name of the no-take marine reserve</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Country</attributeName>
+          <attributeLabel>Country Name</attributeLabel>
+          <attributeDefinition>The country where the no-take marine reserve is located</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Climate</attributeName>
+          <attributeLabel>Climate</attributeLabel>
+          <attributeDefinition>
+            The type of climate that the marine reserve is 
+            located within, either a tropical or temperate environment
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Temperate</code>
+                    <definition>
+                      Regions where the climate undergoes seasonal changes in 
+                      temperature and moisture, primarily between 30 and 60 
+                      degrees latitude in both northern and southern hemispheres.
+                    </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tropical</code>
+                    <definition>
+                      Regions where the climate undergoes little seasonal changes in 
+                      temperature or rainfall, primarily between 30 degrees latitude
+                      north and south of the equator.
+                    </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Lat</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>
+            The latitude of the marine reserve
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Long</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>
+            The longitude of the marine reserve
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>ReserveSize</attributeName>
+          <attributeLabel>Reserve Size</attributeLabel>
+          <attributeDefinition>
+            The area of the marine reserve in square kilometers
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareKilometers</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference1</attributeName>
+          <attributeLabel>First Reference</attributeLabel>
+          <attributeDefinition>The name of the first study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_1</attributeName>
+          <attributeLabel>First Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the first study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference2</attributeName>
+          <attributeLabel>Second Reference</attributeLabel>
+          <attributeDefinition>The name of the second study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_2</attributeName>
+          <attributeLabel>Second Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the second study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference3</attributeName>
+          <attributeLabel>Third Reference</attributeLabel>
+          <attributeDefinition>The name of the third study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_3</attributeName>
+          <attributeLabel>Third Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the third study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference4</attributeName>
+          <attributeLabel>Fourth Reference</attributeLabel>
+          <attributeDefinition>The name of the fourth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_4</attributeName>
+          <attributeLabel>Fourth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the fourth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference5</attributeName>
+          <attributeLabel>Fifth Reference</attributeLabel>
+          <attributeDefinition>The name of the fifth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_5</attributeName>
+          <attributeLabel>Fifth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the fifth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference6</attributeName>
+          <attributeLabel>Sixth Reference</attributeLabel>
+          <attributeDefinition>The name of the sixth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_6</attributeName>
+          <attributeLabel>Sixth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the sixth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference7</attributeName>
+          <attributeLabel>Seventh Reference</attributeLabel>
+          <attributeDefinition>The name of the seventh study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_7</attributeName>
+          <attributeLabel>Seventh Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the seventh study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference8</attributeName>
+          <attributeLabel>Eighth Reference</attributeLabel>
+          <attributeDefinition>The name of the eighth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_8</attributeName>
+          <attributeLabel>Eighth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the eighth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference9</attributeName>
+          <attributeLabel>Ninth Reference</attributeLabel>
+          <attributeDefinition>The name of the ninth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_9</attributeName>
+          <attributeLabel>Ninth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the ninth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference10</attributeName>
+          <attributeLabel>Tenth Reference</attributeLabel>
+          <attributeDefinition>The name of the tenth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_10</attributeName>
+          <attributeLabel>Tenth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the tenth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference11</attributeName>
+          <attributeLabel>Eleventh Reference</attributeLabel>
+          <attributeDefinition>The name of the eleventh study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_11</attributeName>
+          <attributeLabel>Eleventh Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the eleventh study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reference12</attributeName>
+          <attributeLabel>Twelfth Reference</attributeLabel>
+          <attributeDefinition>The name of the twelfth study reference used in the analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DOI_12</attributeName>
+          <attributeLabel>Twelfth Reference DOI</attributeLabel>
+          <attributeDefinition>
+            The digital object identifier of the twelfth study reference as 
+            listed in the International DOI System.  See http://doi.org
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>123</numberOfRecords>
+    </dataTable>
+    <dataTable id="pisco.smr.data" scope="document">
+      <entityName>pisco_smr_data.csv</entityName>
+      <entityDescription>Science of Marine Reserves meta-analysis, data table</entityDescription>
+      <physical scope="document">
+        <objectName>pisco_smr_data.csv</objectName>
+        <size unit="byte">5684</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>&quot;</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution id="pisco.smr.data.url" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/pisco_smr_synthesis.3.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute scope="document">
+          <attributeName>Climate</attributeName>
+          <attributeLabel>Climate</attributeLabel>
+          <attributeDefinition>
+            The type of climate that the marine reserve is 
+            located within, either a tropical or temperate environment
+          </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Temperate</code>
+                    <definition>
+                      Regions where the climate undergoes seasonal changes in 
+                      temperature and moisture, primarily between 30 and 60 
+                      degrees latitude in both northern and southern hemispheres.
+                    </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tropical</code>
+                    <definition>
+                      Regions where the climate undergoes little seasonal changes in 
+                      temperature or rainfall, primarily between 30 degrees latitude
+                      north and south of the equator.
+                    </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Country</attributeName>
+          <attributeLabel>Country Name</attributeLabel>
+          <attributeDefinition>The country where the no-take marine reserve is located</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>Reserve</attributeName>
+          <attributeLabel>Reserve Name</attributeLabel>
+          <attributeDefinition>The name of the no-take marine reserve</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>free text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>BioChange</attributeName>
+          <attributeLabel>Biomass Change</attributeLabel>
+          <attributeDefinition>
+            The calculated percent change in biomass found at the reserve
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DensChange</attributeName>
+          <attributeLabel>Density Change</attributeLabel>
+          <attributeDefinition>
+            The calculated percent change in density found at the reserve
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>SizeChange</attributeName>
+          <attributeLabel>Size Change</attributeLabel>
+          <attributeDefinition>
+            The calculated percent change in individual organism size 
+            found at the reserve
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute scope="document">
+          <attributeName>DivChange</attributeName>
+          <attributeLabel>Diversity Change</attributeLabel>
+          <attributeDefinition>
+            The calculated percent change in species diversity/richness 
+            found at the reserve
+           </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>
+              A single period denotes a missing value in the column
+            </codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>123</numberOfRecords>
+    </dataTable>
+    <otherEntity id="pisco.smr.temptrop-increase" scope="document">
+      <entityName>temperate-tropical-increase.jpg</entityName>
+      <entityDescription>
+        Meta-analysis results: tropical and temperate areas jpeg image. Average
+        changes in fishes, invertebrates, and seaweeds within marine reserves
+        from temperate and tropical regions around the world. Although changes
+        varied among reserves, most reserves had positive changes in both
+        regions.
+      </entityDescription>
+      <physical scope="document">
+        <objectName>temperate-tropical-increase.jpg</objectName>
+        <size unit="byte">453838</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="pisco.smr.temptrop-increase.url" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/pisco_smr_synthesis.4.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpeg</entityType>
+    </otherEntity>
+    <otherEntity id="pisco.smr.overall-increase" scope="document">
+      <entityName>overall-increase.jpg</entityName>
+      <entityDescription>
+        Meta-analysis results: overall responses jpeg image. Average changes in
+        fishes, invertebrates, and seaweeds within marine reserves around the
+        world. Although changes varied among reserves, most reserves had
+        positive changes.
+        </entityDescription>
+      <physical scope="document">
+        <objectName>overall-increase.jpg</objectName>
+        <size unit="byte">397578</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="pisco.smr.overall-increase.url" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/pisco_smr_synthesis.5.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpeg</entityType>
+    </otherEntity>
+    <otherEntity id="pisco.smr.world-reserves" scope="document">
+      <entityName>world-reserves.jpg</entityName>
+      <entityDescription>
+        Map: studied marine reserves around the globe: jpeg image.
+        This map shows the locations of 124 marine reserves that have been 
+        studied by scientists with the results published in scientific journals.
+      </entityDescription>
+      <physical scope="document">
+        <objectName>world-reserves.jpg</objectName>
+        <size unit="byte">5357790</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="pisco.smr.world-reserves.url" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/pisco_smr_synthesis.6.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpeg</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <describes>pisco.smr.studylist.url</describes>
+    <access authSystem="ldap://ldap.ecoinformatics.org:389/dc=ecoinformatics,dc=org" order="denyFirst">
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+      <allow>
+        <principal>uid=lester,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>uid=grorudck,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>cn=data-managers,o=PISCOGROUPS,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+    </access>
+  </additionalMetadata>
+  <additionalMetadata>
+    <describes>pisco.smr.data.url</describes>
+    <access authSystem="ldap://ldap.ecoinformatics.org:389/dc=ecoinformatics,dc=org" order="denyFirst">
+      <deny>
+        <principal>public</principal>
+        <permission>read</permission>
+      </deny>
+      <allow>
+        <principal>uid=lester,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>uid=grorudck,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>cn=data-managers,o=PISCOGROUPS,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+    </access>
+  </additionalMetadata>
+  <additionalMetadata>
+    <describes>pisco.smr.temptrop-increase.url</describes>
+    <access authSystem="ldap://ldap.ecoinformatics.org:389/dc=ecoinformatics,dc=org" order="denyFirst">
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+      <allow>
+        <principal>uid=lester,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>uid=grorudck,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>cn=data-managers,o=PISCOGROUPS,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+    </access>
+  </additionalMetadata>
+  <additionalMetadata>
+    <describes>pisco.smr.overall-increase.url</describes>
+    <access authSystem="ldap://ldap.ecoinformatics.org:389/dc=ecoinformatics,dc=org" order="denyFirst">
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+      <allow>
+        <principal>uid=lester,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>uid=grorudck,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>cn=data-managers,o=PISCOGROUPS,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+    </access>
+  </additionalMetadata>
+  <additionalMetadata>
+    <describes>pisco.smr.world-reserves.url</describes>
+    <access authSystem="ldap://ldap.ecoinformatics.org:389/dc=ecoinformatics,dc=org" order="denyFirst">
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+      <allow>
+        <principal>uid=lester,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>uid=grorudck,o=PISCO,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>cn=data-managers,o=PISCOGROUPS,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+    </access>
+  </additionalMetadata>
+  <additionalMetadata>
+    <unitList>
+      <unit id="percent" name="percent" parentSI="mole" unitType="amount">
+        <description>percent</description>
+      </unit>
+    </unitList>
+  </additionalMetadata>
+</eml:eml>

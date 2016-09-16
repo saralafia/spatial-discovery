@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><metadata xml:lang="en">
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>ArchaeologicalSites_MayaForestGIS</resTitle>
+			<collTitle>Maya Forest GIS</collTitle>
+			<date>
+				<pubDate>1995-08-01T00:00:00</pubDate>
+			</date>
+			<presForm>
+				<PresFormCd value="005"/>
+			</presForm>
+			<citRespParty>
+				<rpOrgName>University of Florida. GeoPlan Center</rpOrgName>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="postal">
+						<delPoint>PO Box 115706</delPoint>
+						<city>Gainesville</city>
+						<adminArea>FL</adminArea>
+						<postCode>32611-5706</postCode>
+						<country>US</country>
+					</cntAddress>
+				</rpCntInfo>
+			</citRespParty>
+			<citRespParty>
+				<rpOrgName>University of Florida. GeoPlan Center</rpOrgName>
+				<role>
+					<RoleCd value="010"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="postal">
+						<delPoint>PO Box 115706</delPoint>
+						<city>Gainesville</city>
+						<adminArea>FL</adminArea>
+						<postCode>32611-5706</postCode>
+						<country>US</country>
+					</cntAddress>
+				</rpCntInfo>
+			</citRespParty>
+			<citRespParty>
+				<rpOrgName>University of California, Santa Barbara. Map and Imagery Laboratory</rpOrgName>
+				<role>
+					<RoleCd value="002"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="both">
+						<delPoint>Davidson Library, UC Santa Barbara</delPoint>
+						<city>Santa Barbara</city>
+						<adminArea>CA</adminArea>
+						<postCode>93106-9010</postCode>
+						<country>US</country>
+					</cntAddress>
+				</rpCntInfo>
+			</citRespParty>
+		</idCitation>
+		<idAbs>&lt;div style='text-align:Left;'&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;This is a digital database of the Maya Forest Region of Mexico, Guatemala, and Belize. Coverages presented here are ArcView Shape files. The projection is UTM Zone 16, using the NAD 1927 datum and the Clarke 1866 spheroid. This coverage contains point locations and names for 530 archaeological sites identified from various sources for the project area.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</idAbs>
+		<idPurp>To preserve biological diversity in Central America by improving stewardship of the region's protected areas and by expanding them to include unprotected wildlands and by restoring degraded areas that link the fragmented wildlands and isthmus. The data was gathered in a larger context to demonstrate the relationship of the Region and adjacent regions, to facilitate the identification of potential biological connections between the protected areas of the Maya Forest and those in adjacent regions, and to focus on ecological boundaries (not political boundaries).</idPurp>
+		<envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</envirDesc>
+		<dataLang>
+			<languageCode value="eng"/>
+		</dataLang>
+		<dataChar>
+			<CharSetCd value="004"/>
+		</dataChar>
+		<idStatus>
+			<ProgCd value="001"/>
+		</idStatus>
+		<spatRpType>
+			<SpatRepTypCd value="001"/>
+		</spatRpType>
+		<tpCat>
+			<TopicCatCd value="016"/>
+		</tpCat>
+		<searchKeys>
+			
+			
+			
+		<keyword>archaeological</keyword><keyword>Maya Forest</keyword><keyword>Guatemala</keyword></searchKeys>
+		<themeKeys>
+			<keyword>Archaeological site location</keyword>
+			<keyword>Maya Forest</keyword>
+			<thesaName>
+				<resTitle>lcsh</resTitle>
+			</thesaName>
+			<thesaLang>
+				<languageCode value="abk"/>
+				<countryCode value="AF"/>
+			</thesaLang>
+		</themeKeys>
+		<placeKeys>
+			<keyword>Petén (Guatemala : Department)</keyword>
+			<keyword>Guatemala</keyword>
+			<keyword>Belize</keyword>
+			<keyword>Mexico</keyword>
+			<thesaName>
+				<resTitle>naf</resTitle>
+			</thesaName>
+			<thesaLang>
+				<languageCode value="abk"/>
+				<countryCode value="AF"/>
+			</thesaLang>
+		</placeKeys>
+		<productKeys>
+			<thesaLang>
+				<languageCode value="abk"/>
+				<countryCode value="AF"/>
+			</thesaLang>
+		</productKeys>
+		<subTopicCatKeys>
+			<thesaLang>
+				<languageCode value="abk"/>
+				<countryCode value="AF"/>
+			</thesaLang>
+		</subTopicCatKeys>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<exTypeCode>1</exTypeCode>
+					<westBL>-93.73174562466818</westBL>
+					<eastBL>-86.7662942023035</eastBL>
+					<southBL>13.242380402132387</southBL>
+					<northBL>21.562680878620007</northBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<idPoC>
+			<rpOrgName>University of Florida. GeoPlan Center</rpOrgName>
+			<role>
+				<RoleCd value="006"/>
+			</role>
+			<rpCntInfo>
+				<cntAddress addressType="postal">
+					<delPoint>PO Box 115706</delPoint>
+					<city>Gainesville</city>
+					<adminArea>FL</adminArea>
+					<postCode>32611-5706</postCode>
+					<country>US</country>
+				</cntAddress>
+			</rpCntInfo>
+		</idPoC>
+		<idPoC>
+			<rpIndName>Dr. Anabel Ford</rpIndName>
+			<rpOrgName>MesoAmerican Research Center</rpOrgName>
+			<rpPosName>Director</rpPosName>
+			<role>
+				<RoleCd value="008"/>
+			</role>
+			<rpCntInfo>
+				<cntAddress addressType="both">
+					<eMailAdd>ford@marc.ucsb.edu</eMailAdd>
+					<delPoint>1044 North Hall, University of California</delPoint>
+					<city>Santa Barbara</city>
+					<adminArea>CA</adminArea>
+					<postCode>93016-2150</postCode>
+					<country>US</country>
+				</cntAddress>
+				<cntPhone>
+					<voiceNum>(805) 893-8191</voiceNum>
+					<faxNum>(805) 893-2790</faxNum>
+				</cntPhone>
+			</rpCntInfo>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="012"/>
+			</maintFreq>
+		</resMaint>
+		<resConst>
+			<Consts>
+				<useLimit>&lt;div style='text-align:Left;'&gt;&lt;div&gt;&lt;div&gt;&lt;div style='font-size:12pt'&gt;&lt;p&gt;&lt;span&gt;Please acknowledge the University of Florida, the Paseo Pantera Consortium, and the US Agency for International Development in any derived data product, reports or publications&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</useLimit>
+			</Consts>
+		</resConst>
+		<aggrInfo>
+			<aggrDSName>
+				<resTitle>Maya Forest GIS</resTitle>
+			</aggrDSName>
+			<assocType>
+				<AscTypeCd value="002"/>
+			</assocType>
+		</aggrInfo>
+		<aggrInfo>
+			<aggrDSName>
+				<resTitle>Digital Geographic Database, Maya Forest Region</resTitle>
+			</aggrDSName>
+			<assocType>
+				<AscTypeCd value="002"/>
+			</assocType>
+		</aggrInfo>
+	</dataIdInfo>
+	<distInfo>
+		<distTranOps>
+			<onLineSrc>
+				<linkage>https://services1.arcgis.com/4TXrdeWh0RyCqPgB/arcgis/rest/services/ArchaeologicalSites_MayaForestGIS/FeatureServer</linkage>
+			</onLineSrc>
+			<transSize>0.014</transSize>
+		</distTranOps>
+		<distFormat>
+			<formatName>Shapefile</formatName>
+		</distFormat>
+		<distributor>
+			<distorCont>
+				<rpIndName>Dr. Anabel Ford</rpIndName>
+				<rpOrgName>MesoAmerican Research Center</rpOrgName>
+				<rpPosName>Director</rpPosName>
+				<role>
+					<RoleCd value="008"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="both">
+						<eMailAdd>ford@marc.ucsb.edu</eMailAdd>
+						<delPoint>1044 North Hall, University of California</delPoint>
+						<city>Santa Barbara</city>
+						<adminArea>CA</adminArea>
+						<postCode>93016-2150</postCode>
+						<country>US</country>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum>(805) 893-8191</voiceNum>
+						<faxNum>(805) 893-2790</faxNum>
+					</cntPhone>
+				</rpCntInfo>
+			</distorCont>
+		</distributor>
+		<distributor>
+			<distorCont>
+				<rpOrgName>University of California, Santa Barbara. Map and Imagery Laboratory</rpOrgName>
+				<role>
+					<RoleCd value="002"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="both">
+						<delPoint>Davidson Library, UC Santa Barbara</delPoint>
+						<city>Santa Barbara</city>
+						<adminArea>CA</adminArea>
+						<postCode>93106-9010</postCode>
+						<country>US</country>
+					</cntAddress>
+				</rpCntInfo>
+			</distorCont>
+		</distributor>
+	</distInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd value="001"/>
+			</topLvl>
+			<geometObjs Name="archr">
+				<geoObjTyp>
+					<GeoObjTypCd value="004"/>
+				</geoObjTyp>
+				<geoObjCnt>530</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="archr">
+			<enttyp>
+				<enttypl>gford-20140000-010007_archr</enttypl>
+				<enttypd>This coverage contains point locations and names for 530 archaeological sites identified from various sources for the project area.</enttypd>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>530</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attalias>AREA</attalias>
+				<attrdef>unknown</attrdef>
+				<attrdefs>none</attrdefs>
+				<attrtype>Number</attrtype>
+				<attwidth>12</attwidth>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attalias>PERIMETER</attalias>
+				<attrdefs>none</attrdefs>
+				<attrtype>Number</attrtype>
+				<attwidth>12</attwidth>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ARCHR_</attrlabl>
+				<attalias>ARCHR_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>11</attwidth>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>530</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ARCHR_ID</attrlabl>
+				<attalias>ARCHR_ID</attalias>
+				<attrdefs>none</attrdefs>
+				<attrtype>Number</attrtype>
+				<attwidth>11</attwidth>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>507</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTRY</attrlabl>
+				<attalias>COUNTRY</attalias>
+				<attrdef>12-character field containing the country name</attrdef>
+				<attrdefs>Paseo Pantera Consortium</attrdefs>
+				<attrtype>String</attrtype>
+				<attwidth>12</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>BELIZE</edomv>
+						<edomvd>Belize</edomvd>
+						<edomvds>Paseo Pantera Consortium</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attalias>NAME</attalias>
+				<attrdef>Name of the archaeological site</attrdef>
+				<attrdefs>Paseo Pantera Consortium</attrdefs>
+				<attrtype>String</attrtype>
+				<attwidth>50</attwidth>
+				<attrdomv>
+					<udom>Character Field</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POINTSOURC</attrlabl>
+				<attalias>POINTSOURC</attalias>
+				<attrdef>Original map source for the site data</attrdef>
+				<attrdefs>Paseo Pantera Consortium</attrdefs>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>NAT. GEOG. LAND OF THE MAYAS</edomv>
+						<edomvd>National Geographic, Land of the Mayas</edomvd>
+						<edomvds>Paseo Pantera Consortium</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PROVINCE</attrlabl>
+				<attalias>PROVINCE</attalias>
+				<attrdef>2-digit number designating state, district, or department</attrdef>
+				<attrdefs>Paseo Pantera Consortium</attrdefs>
+				<attrtype>Number</attrtype>
+				<attwidth>3</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>none</edomvd>
+						<edomvds>none</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>Corozol should read Corozal</eaover>
+		</overview>
+	</eainfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26716"/>
+				<idCodeSpace>EPSG</idCodeSpace>
+				<idVersion>7.9.4</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<Esri>
+		<ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle>
+		<scaleRange>
+			<maxScale>5000</maxScale>
+			<minScale>150000000</minScale>
+		</scaleRange>
+		<CreaDate>2002-05-08</CreaDate>
+		<CreaTime>14492600</CreaTime>
+		<ModDate>2015-08-10</ModDate>
+		<ModTime>14:21:13.80</ModTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>2014-08-12</SyncDate>
+		<SyncTime>09094600</SyncTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<ArcGISProfile>ISO19139</ArcGISProfile>
+		<PublishStatus>editor:esri.dijit.metadata.editor</PublishStatus>
+		<DataProperties>
+			<itemProps>
+				<imsContentType export="False">002</imsContentType>
+				<itemName>archr</itemName>
+				<itemSize>0.014</itemSize>
+				<nativeExtBox>
+					<westBL>-221338.625000</westBL>
+					<eastBL>524362.812500</eastBL>
+					<southBL>1463864.625000</southBL>
+					<northBL>2384788.500000</northBL>
+					<exTypeCode>1</exTypeCode>
+				</nativeExtBox>
+				<itemLocation>
+					<linkage>file://\\svmwindows\mil\Projects\Maya Forest GIS\2 CD-ROMs w_ISOs\DISK_1\Base\PPC-USAID\shapefiles\archr.shp</linkage>
+					<protocol>Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<coordRef>
+				<type>Projected</type>
+				<geogcsn>GCS_North_American_1927</geogcsn>
+				<projcsn>NAD_1927_UTM_Zone_16N</projcsn>
+				<csUnits>Linear Unit: Meter (1.000000)</csUnits>
+				<peXml>&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1927_UTM_Zone_16N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1927&amp;quot;,DATUM[&amp;quot;D_North_American_1927&amp;quot;,SPHEROID[&amp;quot;Clarke_1866&amp;quot;,6378206.4,294.9786982]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-87.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26716]]&lt;/WKT&gt;&lt;XOrigin&gt;-5121000&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998000&lt;/YOrigin&gt;&lt;XYScale&gt;450450052.74759901&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26716&lt;/WKID&gt;&lt;LatestWKID&gt;26716&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+		</DataProperties>
+	</Esri>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdHrLvName>dataset</mdHrLvName>
+	<mdDateSt>2015-01-12</mdDateSt>
+	<mdFileID>1a3a1295bf2e4cafab64580182d15367</mdFileID>
+	<mdLang>
+		<languageCode value="eng"/>
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdContact>
+		<rpOrgName>University of Florida. GeoPlan Center</rpOrgName>
+		<role>
+			<RoleCd value="006"/>
+		</role>
+		<rpCntInfo>
+			<cntAddress addressType="postal">
+				<delPoint>PO Box 115706</delPoint>
+				<city>Gainesville</city>
+				<adminArea>FL</adminArea>
+				<postCode>32611-5706</postCode>
+				<country>US</country>
+			</cntAddress>
+		</rpCntInfo>
+	</mdContact>
+	<mdContact>
+		<rpOrgName>University of California, Santa Barbara. Map and Imagery Laboratory</rpOrgName>
+		<role>
+			<RoleCd value="009"/>
+		</role>
+		<rpCntInfo>
+			<cntAddress addressType="both">
+				<delPoint>Davidson Library, UC Santa Barbara</delPoint>
+				<city>Santa Barbara</city>
+				<adminArea>CA</adminArea>
+				<postCode>93106-9010</postCode>
+				<country>US</country>
+			</cntAddress>
+		</rpCntInfo>
+	</mdContact>
+	<mdContact>
+		<rpIndName>Dr. Keith Clarke</rpIndName>
+		<rpOrgName>National Center for Geographic Information &amp; Analysis</rpOrgName>
+		<rpPosName>Director</rpPosName>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+		<rpCntInfo>
+			<cntAddress addressType="both">
+				<delPoint>Department of Geography University of California, Santa Barbara</delPoint>
+				<city>Santa Barbara</city>
+				<adminArea>CA</adminArea>
+				<postCode>93106</postCode>
+				<country>US</country>
+			</cntAddress>
+			<cntPhone>
+				<voiceNum>(805) 893-7961</voiceNum>
+				<faxNum>(805) 893-3146</faxNum>
+			</cntPhone>
+		</rpCntInfo>
+	</mdContact>
+	<mdMaint>
+		<maintFreq>
+			<MaintFreqCd value="009"/>
+		</maintFreq>
+	</mdMaint>
+	<Binary>
+		<Thumbnail>
+			<Data EsriPropertyType="PictureX">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</Data>
+		</Thumbnail>
+	</Binary>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm Name="archr">
+				<efeatyp>Simple</efeatyp>
+				<efeageom code="1"/>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>530</efeacnt>
+				<spindex>TRUE</spindex>
+				<linrefer>FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+</metadata>

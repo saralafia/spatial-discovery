@@ -1,0 +1,21 @@
+DATASETS
+
+Archaeological Sites
+http://opendata.arcgis.com/datasets/1a3a1295bf2e4cafab64580182d15367_0
+
+PISCO: Science of Marine Reserves: Meta-analysis: Global synthesis.
+https://knb.ecoinformatics.org/#view/doi:10.6085/AA/pisco_smr_synthesis.1.3
+
+World Boundaries of Disputed Areas, 1:10 million (2012)
+https://earthworks.stanford.edu/catalog/stanford-tq310nc7616
+
+PUBLICATIONS
+
+Assessing the Situation at El Pilar
+http://escholarship.org/uc/item/4qr2x8p3
+
+Biological effects within no-take marine reserves: a global synthesis
+http://ucsb.worldcat.org/oclc/429112939
+
+Natural Earth
+https://searchworks.stanford.edu/view/11047527

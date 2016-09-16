@@ -3,6 +3,6 @@
     <uri id="Imports Wizard Entry" name="http://www.opengis.net/ont/geosparql" uri="http://schemas.opengis.net/geosparql/1.0/geosparql_vocab_all.rdf"/>
     <uri id="Imports Wizard Entry" name="http://purl.org/ontology/bibo/" uri="https://raw.githubusercontent.com/structureddynamics/Bibliographic-Ontology-BIBO/master/bibo.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1474061538668" name="http://www.spatialdiscovery.org" uri="spatialdiscovery.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1474063497166" name="http://www.spatialdiscovery.org" uri="spatialdiscovery.owl"/>
     </group>
 </catalog>
