@@ -1,0 +1,54 @@
+Metadata Profile (ISO 19139)
+
+DATASETS
+Thumbnail (Data)
+Citation
+	Title & Dates
+		Alt Title (Feature Type, Coverage, Year)
+		*(Collective Title)
+		Publication Date
+	URLs
+		Online resource
+	Identifiers
+		*(DOI or ID)
+	Contact
+		Individual
+		Organization
+		Role (Author)
+Details
+	Description (Abstract)
+Keywords
+	Topic (check appropriate, ISO 19115)
+	Tags (add from alt title)
+	*(Theme/Place/Temporal) - from LOC, GeoNames.
+Extent
+	Resource Extent (Geographic Extent) 
+		Geographic
+			Bounding Box (W/E/S/N coordinates)
+				Extent is for search?
+				Extent contains the resource?
+		Temporal
+Validate.
+
+DOCUMENTS
+Thumbnail (Document)
+Citation
+	Title & Dates
+		Alt Title (Feature Type, Coverage, Year)
+		*(Collective Title)
+		Publication Date
+	URLs
+		Online resource
+	Identifiers
+		*(DOI)
+	Contact
+		Individual
+		Organization
+		Role (Author)
+Details
+	Description (Abstract)
+Keywords
+	Topic (check appropriate, ISO 19115)
+	Tags (add from alt title)
+	*(Theme/Place/Temporal) - from LOC, GeoNames.
+Validate.
