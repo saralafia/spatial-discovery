@@ -1,0 +1,5697 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/spatialdiscovery",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gl",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main.owl"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/spatialdiscovery",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gl",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main.owl"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/spatialdiscovery",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gl",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main.owl"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/spatialdiscovery",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gl",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/spatialdiscovery",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "gl",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata/",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "title",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata/",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "title",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "gl:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata/",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "title",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/dataset#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "title",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/dataset#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "title",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/dataset#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "title",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "gl:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "gl:hasFormat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "gl:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "alternate title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "gl:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "gl:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "gl:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#DigitalObject",
+              "curie": "geolink:DigitalObject"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "geolink:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "gl:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Place",
+                    "curie": "geolink:Place"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#DigitalObject",
+              "curie": "geolink:DigitalObject"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "geolink:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "geolink:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/coverage",
+              "curie": "dc:coverage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/format",
+              "curie": "dc:format",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/source",
+              "curie": "dc:source",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#DigitalObject",
+              "curie": "geolink:DigitalObject"
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#Data",
+              "curie": "linkedsci:Data"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasDocumentType",
+              "curie": "geolink:hasDocumentType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "resource",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "geolink:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/coverage",
+              "curie": "dc:coverage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/format",
+              "curie": "dc:format",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/source",
+              "curie": "dc:source",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#isAboutRegion",
+              "curie": "linkedsci:isAboutRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "geolink:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/coverage",
+              "curie": "dc:coverage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/format",
+              "curie": "dc:format",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/source",
+              "curie": "dc:source",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#isAboutRegion",
+              "curie": "linkedsci:isAboutRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "geolink:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/coverage",
+              "curie": "dc:coverage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/format",
+              "curie": "dc:format",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/source",
+              "curie": "dc:source",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#isAboutRegion",
+              "curie": "linkedsci:isAboutRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "geolink:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/coverage",
+              "curie": "dc:coverage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/format",
+              "curie": "dc:format",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/source",
+              "curie": "dc:source",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#isAboutRegion",
+              "curie": "linkedsci:isAboutRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "author",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Person",
+              "curie": "geolink:Person"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifierValue",
+              "curie": "geolink:hasIdentifierValue",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "organization",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Organization",
+              "curie": "geolink:Organization"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasParticipant",
+              "curie": "geolink:hasParticipant",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://discovery.ucsb.opendata.edu/#",
+      "prefixes": [
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedsci",
+          "uri": "http://linkedscience.org/lsc/ns"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geolink",
+          "uri": "http://schema.geolink.org/1.0/base/main#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+              "curie": "geolink:Dataset"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasFormat",
+              "curie": "geolink:hasFormat",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Format",
+                    "curie": "geolink:Format"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAbstract",
+              "curie": "geolink:hasAbstract",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "abstract"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifier",
+              "curie": "geolink:hasIdentifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasGeometryAsWktLiteral",
+              "curie": "geolink:hasGeometryAsWktLiteral",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasLandingPage",
+              "curie": "geolink:hasLandingPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "detailsPageUrl",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/creator",
+              "curie": "dc:creator",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/coverage",
+              "curie": "dc:coverage",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/date",
+              "curie": "dc:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/format",
+              "curie": "dc:format",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/identifier",
+              "curie": "dc:identifier",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Document",
+                    "curie": "geolink:Document"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/source",
+              "curie": "dc:source",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "collection"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/subject",
+              "curie": "dc:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "themes"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/title",
+              "curie": "dc:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#isAboutRegion",
+              "curie": "linkedsci:isAboutRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "extentWKT"
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkedscience.org/lsc/ns#reportedIn",
+              "curie": "linkedsci:reportedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource URL 3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkedscience.org/lsc/ns#Publication",
+                    "curie": "linkedsci:Publication"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 1",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 1"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 2",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "associated resource title 2"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "associated resource URL 3",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Document",
+              "curie": "geolink:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasAuthor",
+              "curie": "geolink:hasAuthor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author"
+              }
+            },
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasTitle",
+              "curie": "geolink:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/elements/1.1/relation",
+              "curie": "dc:relation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Dataset",
+                    "curie": "geolink:Dataset"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "author",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Person",
+              "curie": "geolink:Person"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasIdentifierValue",
+              "curie": "geolink:hasIdentifierValue",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "orcid"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "organization",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#Organization",
+              "curie": "geolink:Organization"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.geolink.org/1.0/base/main#hasParticipant",
+              "curie": "geolink:hasParticipant",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "author",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.geolink.org/1.0/base/main#Person",
+                    "curie": "geolink:Person"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
