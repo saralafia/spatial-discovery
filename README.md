@@ -1,5 +1,6 @@
 # spatialdiscovery
 ![spatialdiscoveryLogo](http://spatial.ucsb.edu/wp-content/uploads/spatial_discovery_sponsors1.png)
+
 This [project](http://spatial.ucsb.edu/research/spatial-discovery) is a partnership between the Center for Spatial Studies and UCSB Library. The goal of the partnership is to make research datasets more **discoverable** by relating them to publications and describing them spatially. This repository supports the project's linked data model, triplestore, and development endpoint.
 
 ##docs
